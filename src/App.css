@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body {
+    background-color: lightgray;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+    background-color: white;
+    width: 550px;
+    height: 704px;
+    margin: 10px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+    height: 55px;
+    background: #F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header img {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
 }
 
-.App-link {
-  color: #61dafb;
+.place-card {
+    width: 470px;
+    height: 168px;
+    display: flex;
+    margin: 30px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.place-card img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.details {
+    margin: auto auto auto 19px;
+    font-size: 10.24px;
+}
+
+.details .location-details img {
+    width: 7px;
+    height: auto;
+    margin-right: 3px;
+}
+
+.details .location-details .country {
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.details .location-details a {
+    text-decoration-line: underline;
+    color: #918E9B;
+    margin-left: 6px;
+}
+
+.details .dates {
+    font-weight: 700;
+}
+
+.details h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 4px auto 14px auto;
+    padding: 0
+}
+
+.details p {
+    line-height: 150%;
 }
